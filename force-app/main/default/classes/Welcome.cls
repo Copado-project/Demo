@@ -6,5 +6,7 @@ public with sharing class Welcome {
     public static void printCopado() {
         System.debug('Welcome to Copado');
         assert.isNotNull('hello');
+        assert.isNotNull('hello');
     }
+    
 }
