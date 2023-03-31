@@ -8,4 +8,8 @@ private class WelcomeTest {
     static void WelcomeCopadoTest(){
         Welcome.printCopado();
     }
+    @isTest 
+    static void printCopadoMessageTest(){
+        Welcome.printCopadoMessage();
+    }
 }

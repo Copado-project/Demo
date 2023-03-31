@@ -8,5 +8,9 @@ public with sharing class Welcome {
         assert.isNotNull('hello');
         assert.isNotNull('hello');
     }
-    
+    public static void printCopadoMessage() {
+        System.debug('Welcome to Copado Message 1');
+        assert.isNotNull('hello');
+        assert.isNotNull('hello');
+}
 }
