@@ -3,4 +3,8 @@ public with sharing class Welcome {
         System.debug('Welcome to PwC');
         assert.isNotNull('hello');
     }
+    public static void printCopado() {
+        System.debug('Welcome to Copado');
+        assert.isNotNull('hello');
+    }
 }
